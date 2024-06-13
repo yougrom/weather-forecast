@@ -1,0 +1,19 @@
+.weather-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.weather-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin: 10px;
+  padding: 20px;
+
+  text-align: center;
+
+  border: 2px solid #ff0033;
+  border-radius: 5px;
+}
